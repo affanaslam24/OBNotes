@@ -1,0 +1,27 @@
+- S3 replication.
+- Lifecycle configuration of S3.
+- cloudwatch agent with parameter store
+- creating KMS keys.
+- Understand the difference between mountable and bootable. At the same time i need to find the actual difference of file storage and block storage, in practical.
+- Instance volume practise.
+- EBS snapshot migrate between instances in same AZ and different region.
+- Attach more than one Security group to an ENI.
+- A project using ECS.
+- load balancers, and how to configure them.
+- launch templates.
+- asg without load balancers.
+- load balancers without asg.
+- different scaling policies in asg.
+- api gateway projects
+	- api gateway and cognito for authentification.
+-  project using sqs and sns, the transcoding project.
+- the lambda project with events for catagram as well as the transcoding one to practice.
+- a project with amazon cognito in android dev (sad, because i tried this one once.)
+- cloudfront addition to s3, and default ssl
+- custom ssl using ACM
+- how to configure certificate using route53 and external distributer.
+- egress only connectin
+- gateway endpoint
+- interface endpoint
+- site to site vpn, and then transit gateway for peer to peer conections. this is importnat to connect on premesis with multiple vpc on cloud.
+

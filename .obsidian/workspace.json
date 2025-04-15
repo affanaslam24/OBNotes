@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "9dc0cca578f6c83d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d10bc9f745908e2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19f4afdebf52aff0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "497edd9a306fb3fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "58a900f70ff4310f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2ad20c3f281fd3d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "37c10955a5ff0b0e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "759a5dcb2eedab93",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ef27932f34e1af62",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1e343223170be69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57b5020b4c95c678",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ansible/1st one.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1st one"
+            }
+          },
+          {
+            "id": "47561aae7caeaede",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ansible/1st one.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1st one"
+            }
+          },
+          {
+            "id": "e4f303253db6d311",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ce639beb809f0751",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ansible/1st one.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1st one"
+            }
+          },
+          {
+            "id": "a01ca7359d6024a1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "19f4afdebf52aff0",
+  "lastOpenFiles": [
+    "AWS/Kinesis/SQS and kinesis difference.md",
+    "AWS/Kinesis/EXAM fresher.md",
+    "AWS/S3/EXAM fresher.md",
+    "AWS/Mischellaneuos/EXAM fresher.md",
+    "AWS/Mischellaneuos/GuardDuty.md",
+    "AWS/Mischellaneuos/Inspector.md",
+    "AWS/EXAM fresher.md",
+    "AWS/Practise resources.md",
+    "AWS/Kinesis/Data Analytics.md",
+    "AWS/Kinesis/Firehose.md",
+    "AWS/Kinesis/basics.md",
+    "AWS/SQS/Extra features.md",
+    "AWS/SQS/EXAM fresher.md",
+    "AWS/Cloudfront/EXAM fresher.md",
+    "AWS/Cloudfront/RoutingPolicy of R53.md",
+    "AWS/Cloudfront/photos/Pasted image 20250413212013.png",
+    "AWS/monitoring/what is cloudtrail used for.md",
+    "AWS/monitoring/Cloudwatch logs.md",
+    "AWS/monitoring/CloudTrail.md",
+    "AWS/Lambda/EXAM fresher.md",
+    "AWS/Lambda/API gateway.md",
+    "AWS/Lambda/photos/Pasted image 20250413202913.png",
+    "AWS/S3/put vs Data transfer in.md",
+    "AWS/S3/S3 Accelarated transfer.md",
+    "AWS/S3/photos/Pasted image 20250413201012.png",
+    "AWS/Lambda/photos/Pasted image 20250413200631.png",
+    "AWS/Lambda/photos/Pasted image 20250413200552.png",
+    "AWS/Lambda/Invocatiobs.md",
+    "AWS/Encryption/EXAM fresher.md",
+    "AWS/Encryption/photos/Pasted image 20250413200139.png",
+    "AWS/Encryption/photos/Pasted image 20250413200133.png",
+    "AWS/Encryption/Basics of encrypt.md",
+    "AWS/Load Balance/EXAM Fresher.md",
+    "AWS/Load Balance/photos/Pasted image 20250413194814.png",
+    "AWS/Load Balance/photos/Pasted image 20250413194720.png",
+    "AWS/Load Balance/photos/Pasted image 20250413194223.png",
+    "AWS/Elastic Beanstalk/photos",
+    "AWS/Elastic Beanstalk",
+    "AWS/EKS/photos",
+    "AWS/EKS",
+    "AWS/Mischellaneuos/photos",
+    "AWS/dynamoDb/photos",
+    "AWS/dynamoDb",
+    "AWS/CloudFormtaion/photos",
+    "AWS/Mischellaneuos",
+    "AWS/CloudFormtaion",
+    "Untitled.canvas"
+  ]
+}
