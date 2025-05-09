@@ -38,3 +38,23 @@ Archive Access is same as glacier flexible but the days are between 90 to 270
 IF object arent accessed within 180 to 730 days, its movwd to deep archive, which is the same as glacier deep archive.
 
 Lets talk about ![[lifecycle]]
+
+---
+
+
+**Configure a DataSync task to transfer the files to S3 Standard-Infrequent Access (S3 Standard-IA). Use a lifecycle configuration to transition the files to S3 Deep Archive after 1 year with a retention period of 7 years:**
+
+This is correct because S3 Standard-IA is cost-effective for infrequently accessed data. After 1 year, transitioning to S3 Deep Archive is the most cost-effective choice for long-term storage with infrequent access requirements.
+
+**Use an archive tool to group the files into large objects. Use DataSync to migrate the objects. Store the objects in S3 Glacier Instant Retrieval for the first year. Use a lifecycle configuration to transition the files to S3 Glacier Deep Archive after 1 year with a retention period of 7 years:**
+
+This is incorrect because grouping files into large objects increases operational overhead, and S3 Glacier Instant Retrieval is more expensive than S3 Standard-IA for the initial storage.
+
+**Use an archive tool to group the files into large objects. Use DataSync to copy the objects to S3 Standard-Infrequent Access (S3 Standard-IA). Use a lifecycle configuration to transition the files to S3 Glacier Instant Retrieval after 1 year with a retention period of 7 years:**
+
+This is incorrect because transitioning files to S3 Glacier Instant Retrieval is unnecessary and less cost-effective compared to S3 Deep Archive.
+
+**Configure the destination storage class for the files as S3 Glacier Instant Retrieval. Use a lifecycle policy to transition the files to S3 Glacier Flexible Retrieval after 1 year with a retention period of 7 years:**
+
+This is incorrect because S3 Glacier Instant Retrieval is not needed for the first year. S3 Standard-IA provides a more cost-effective solution for the use case.
+

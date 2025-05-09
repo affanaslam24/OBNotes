@@ -48,3 +48,34 @@ You cannot use AWS Site-to-Site VPN to integrate data files via the NFS interfac
 ---
 
 
+A VPC peering connection is a networking connection between two VPCs that enables you to route traffic between them using private IPv4 addresses or IPv6 addresses. Instances in either VPC can communicate with each other as if they are within the same network.
+
+You can create a VPC peering connection between your own VPCs, or with a VPC in another AWS account. The VPCs can be in different regions (also known as an inter-region VPC peering connection).
+![[Pasted image 20250415182516.png]]
+
+---
+
+You cannot create VPC gateway endpoints for Amazon EC2 instances. These are used with DynamoDB and S3 only.
+
+Direct Connect gateway is used to connect a Direct Connect connection to multiple VPCs, it is not useful in this scenario as there is no Direct Connect connection.
+
+---
+
+
+With a gateway endpoint you create the endpoint in the VPC, attach a policy allowing access to the service, and then specify the route table to create a route table entry in.
+
+---
+
+**Gateway Load Balancer endpoint in each service account:** This is correct because GWLB is specifically designed to simplify the deployment of security appliances. Using GWLB endpoints in service accounts ensures efficient routing and centralized inspection of traffic.
+
+**Deploy a Network Load Balancer (NLB) in the networking account to route traffic to the security appliance. Configure the service accounts to send traffic to the NLB by using a VPC peering connection:** This is incorrect because NLB is not optimized for traffic inspection. Additionally, VPC peering lacks centralized management and scalability for large organizations.
+
+**Deploy an Application Load Balancer (ALB) in the networking account to route traffic to the security appliance. Configure the service accounts to send traffic to the ALB by using a private link:** This is incorrect because ALB is primarily used for HTTP/HTTPS-based applications and is not suitable for routing traffic for inspection appliances.
+
+**Deploy interface VPC endpoints in the networking account for each service in the service accounts. Configure the security appliance to inspect traffic sent through the endpoints:** This is incorrect because interface VPC endpoints do not inherently support routing all traffic through a centralized appliance and lack the capability for deep packet inspection
+
+---
+
+
+- Always use datasync for syncing data between 2 places.
+- why do we use PrivateLink? And can it be used along with DirectConnect to have onPrem connection with services inside AWS?

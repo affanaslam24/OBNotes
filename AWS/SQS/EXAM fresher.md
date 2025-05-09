@@ -73,3 +73,34 @@ AWS manages all ongoing operations and underlying infrastructure needed to provi
 
 
 
+---
+
+whenevr kinesis and sqs is used together, remenber that kinesis wins for real time features
+
+
+---
+
+
+![[Pasted image 20250415185313.png]]
+
+
+i couldnt understand this at all:
+
+
+FIFO queues preserve the order of messages but they do not prioritize messages within the queue. The orders would need to be placed into the queue in a priority order and there’s no way of doing this as the messages are sent automatically through event notifications as they are received by Amazon S3.
+
+
+Batching adds efficiency but it has nothing to do with ordering or priority.
+
+Short polling and long polling are used to control the amount of time the consumer process waits before closing the API call and trying again. Polling should be configured for efficiency of API calls and processing of messages but does not help with message prioritization.
+
+AWS recommend using separate queues when you need to provide prioritization of work. The logic can then be implemented at the application layer to prioritize the queue for the paid photos over the queue for the free photos.
+
+**CORRECT:** "Use a separate SQS Standard queue for each tier. Configure Amazon EC2 instances to prioritize polling for the paid queue over the free queue" is the correct answer.
+
+
+A VERY IMPORTANT QUESTION. NEED TO UNDERSTAND THE DIFFERENT USE CASES.
+
+---
+
+**Use two Amazon Simple Queue Service (Amazon SQS) queues: one for data ingestion and one for route analysis. Configure the EC2 instances to poll their respective queues and scale the Auto Scaling groups based on the ApproximateNumberOfMessages metric in each queue:** This is correct because SQS decouples the ingestion and analysis processes, ensuring no data is lost during traffic spikes. Scaling the Auto Scaling groups based on the queue length allows for efficient scaling that matches the workload demand for each process.

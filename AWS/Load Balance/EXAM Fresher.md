@@ -75,3 +75,11 @@ Can show a proper explanation here> [[rules]]
 
 A scheduled action sets the minimum, maximum, and desired sizes to what is specified by the scheduled action at the time specified by the scheduled action. For the given use case, the correct solution is to set the desired capacity to 10. When we want to specify a range of instances, then we must use min and max values.
 
+The minimum and maximums define how many instances CAN run; the desired capacity sets how many you WANT to be running.
+
+Scheduled scaling allows you to set your own scaling schedule. In this example it means the Solutions Architect can configure the scaling action to take place shortly before business hours begin and that will ensure adequate capacity exists from the very beginning of the business day.
+
+In this example below the scheduled scaling policy is configured to scale at 08:45am daily with a desired count of 15. This will result in 15 instances being available shortly after.
+
+---
+

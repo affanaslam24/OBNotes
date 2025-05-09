@@ -39,3 +39,54 @@ Firehose cannot directly write into a DynamoDB table, so this option is incorrec
 ---
 
 KDS provides ordering of records, as well as the ability to read and/or replay records in the same order to multiple Amazon Kinesis Applications.
+
+---
+
+
+Amazon Kinesis Data Streams collect and process data in real time. A _Kinesis data stream_ is a set of [shards](https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html#shard). Each shard has a sequence of data records. Each data record has a [sequence number](https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html#sequence-number) that is assigned by Kinesis Data Streams. A _shard_ is a uniquely identified sequence of data records in a stream.
+
+A _partition key_ is used to group data by shard within a stream. Kinesis Data Streams segregates the data records belonging to a stream into multiple shards. It uses the partition key that is associated with each data record to determine which shard a given data record belongs to.
+![](https://img-c.udemycdn.com/redactor/raw/2020-05-21_01-04-57-65202de89627ab9ac70ef6b89817c981.jpg)
+
+
+"Use Amazon Kinesis Data Streams for real-time events with a shard for each device. Use Amazon Kinesis Data Firehose to save data to Amazon EBS" is incorrect as you cannot save data to EBS from Kinesis.
+
+---
+
+"Use an Amazon SQS standard queue for real-time events with one queue for each device. Trigger an AWS Lambda function from the SQS queue to save data to Amazon S3" is incorrect as SQS is not the most efficient service for streaming, real time data.
+
+---
+
+
+A company provides a REST-based interface to an application that allows a partner company to send data in near-real time. The application then processes the data that is received and stores it for later analysis. The application runs on Amazon EC2 instances.
+
+The partner company has received many 503 Service Unavailable Errors when sending data to the application and the compute capacity reaches its limits and is unable to process requests when spikes in data volume occur.
+
+Which design should a Solutions Architect implement to improve scalability?
+
+-
+- kinesis stream for huge real time data, (coyudlve used sqs but we specifically said real time need)
+- lambda for scalability, also if youre worried about the store option, Lambda can store it to S3 or other places after each compute.
+
+---
+
+A financial services company wants a single log processing model for all the log files (consisting of system logs, application logs, database logs, etc) that can be processed in a serverless fashion and then durably stored for downstream analytics. The company wants to use an AWS managed service that automatically scales to match the throughput of the log data and requires no ongoing administration. As a solutions architect, which of the following AWS services would you recommend solving this problem?
+
+
+Keywords:
+all log files
+no administration
+automatic scales
+serverless
+**durably stored**
+
+
+Kinesis firehose!!!
+
+- **Serverless**: No need to manage infrastructure.
+- **Fully managed**: No ongoing administration.
+- **Auto-scales**: Matches log data throughput automatically.
+- **Durable storage**: Can deliver logs to **Amazon S3**, **Amazon Redshift**, **Amazon OpenSearch**, or a custom HTTP endpoint.
+- **Near real-time processing**: Supports data transformation using **AWS Lambda** before storage.
+- **Supports various log types**: Works well for system, app, and DB logs from multiple sources 
+

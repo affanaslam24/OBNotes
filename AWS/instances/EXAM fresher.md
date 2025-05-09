@@ -32,3 +32,23 @@ A partition placement group spreads your instances across logical partitions suc
 ---
 
 
+- cross AZ in Ec2, there are charges involced.
+- inside same zone, its free
+
+---
+
+
+**Set the `DeleteOnTermination` attribute to false**
+
+An Amazon EC2 instance can be launched from either an instance store-backed AMI or an Amazon EBS-backed AMI. Instances that use Amazon EBS for the root device automatically have an Amazon EBS volume attached. By default, the root volume for an AMI backed by Amazon EBS is deleted when the instance terminates. The default behavior can be changed to ensure that the volume persists after the instance terminates. To change the default behavior, set the DeleteOnTermination attribute to false using a block device mapping.
+
+
+---
+
+Always allow roles for accessing differetn services rsather than using credentials or access keys and everyting of  a specific user inside an instance, that unsafe.
+
+---
+
+**User Data scripts in EC2 run as the `root` user by default**.
+
+

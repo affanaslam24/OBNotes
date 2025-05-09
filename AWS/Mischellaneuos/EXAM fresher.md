@@ -84,3 +84,13 @@ SO guardduty CAN work with ec2 instances, but it checks the runtime issues, not 
 Inspector does that.
 
 read the guard duty and inspector files again.
+
+
+---
+
+
+This is incorrect because EMR is primarily used for large-scale data processing, not real-time streaming. Additionally, DynamoDB is not a search engine and is not well-suited for the type of search and analysis required in this use case.
+
+Redshift is designed for batch analytics, not real-time streaming analytics.
+
+his is correct because Kinesis Data Streams is designed for real-time data ingestion. OpenSearch Service supports full-text search and analytics, while Managed Grafana provides dynamic dashboards for visualization.

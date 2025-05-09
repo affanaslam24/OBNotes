@@ -26,3 +26,30 @@ By default servwr side encryption uses AES256, but you can change it to use the 
 ![[Screenshot from 2025-03-29 17-20-30.png]]
 
 
+---
+
+IMPORTANT!!
+CLient side encryption
+
+
+The requirement is that the objects must be encrypted before they are uploaded. The only option presented that meets this requirement is to use client-side encryption. You then have two options for the keys you use to perform the encryption:
+
+• Use a customer master key (CMK) stored in AWS Key Management Service (AWS KMS).
+
+• Use a master key that you store within your application.
+
+In this case the correct answer is to use an AWS KMS key. Note that you cannot use client-side encryption with keys managed by Amazon S3.
+
+![](https://img-c.udemycdn.com/redactor/raw/test_question_description/2021-02-25_12-00-48-9dad6f62c8e7c9414b51a788e346c78c.jpg)
+
+**CORRECT:** "Use client-side encryption with a master key stored in AWS KMS" is the correct answer.
+
+**INCORRECT:** "Use client-side encryption with Amazon S3 managed encryption keys" is incorrect. You cannot use S3 managed keys with client-side encryption.
+
+**INCORRECT:** "Use server-side encryption with customer-provided encryption keys" is incorrect. With this option the encryption takes place after uploading to S3.
+
+**INCORRECT:** "Use server-side encryption with keys stored in KMS" is incorrect. With this option the encryption takes place after uploading to S3.
+
+
+
+

@@ -25,3 +25,7 @@ INstance volume vs EBS
 
 ![[Screenshot from 2025-03-30 14-19-51.png]]
 
+
+
+
+![[Pasted image 20250415183056.png]]

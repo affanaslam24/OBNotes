@@ -20,3 +20,9 @@ fsx vs efs.
 ![[Pasted image 20250410111825.png]]
 
 
+
+---
+
+
+It provides a rich set of administrative and security features, and integrates with Microsoft Active Directory (AD). To serve a wide spectrum of workloads, Amazon FSx provides high levels of file system throughput and IOPS and consistent sub-millisecond latencies.
+

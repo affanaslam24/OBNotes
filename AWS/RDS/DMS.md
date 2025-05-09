@@ -13,3 +13,11 @@ where sct are used
 
 lawda samajh nhi aaya
 ![[Pasted image 20250402162247.png]]
+
+
+---
+
+
+![[Pasted image 20250415195817.png]]
+
+

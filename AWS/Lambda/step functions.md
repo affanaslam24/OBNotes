@@ -1,6 +1,6 @@
 **its a seperate service.**
 
-
+AWS Step Functions lets you coordinate multiple AWS services into serverless workflows so you can build and update apps quickly. Using Step Functions, you can design and run workflows that stitch together services, such as AWS Lambda, AWS Fargate, and Amazon SageMaker, into feature-rich applications. You cannot use Step Functions to monitor CPU utilization of Amazon EC2 instances or send notification emails, hence this option is incorrect.
 #### Limitation on Lmabda
 ![[Pasted image 20250408125549.png]]
 

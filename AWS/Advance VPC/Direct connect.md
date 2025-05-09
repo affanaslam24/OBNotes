@@ -44,3 +44,13 @@ Fixes:
 
 
 DIRECT connect VS SITE TO SITE VPN
+
+
+
+
+
+The most resilient solution is to configure DX connections at multiple DX locations. This ensures that any issues impacting a single DX location do not affect availability of the network connectivity to AWS.
+
+Take note of the following AWS recommendations for resiliency:
+
+_AWS recommends connecting from multiple data centers for physical location redundancy. When designing remote connections, consider using redundant hardware and telecommunications providers. Additionally, it is a best practice to use dynamically routed, active/active connections for automatic load balancing and failover across redundant network connections. Provision sufficient network capacity to ensure that the failure of one network connection does not overwhelm and degrade redundant connections._

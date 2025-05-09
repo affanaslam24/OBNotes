@@ -1,3 +1,6 @@
+AWS supports six types of policies: identity-based policies, resource-based policies, permissions boundaries, Organizations service control policy (SCPs), access control lists (ACLs), and session policies.
+
+
 
 managed policies, inline poliscies
 

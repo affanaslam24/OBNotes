@@ -103,3 +103,11 @@ To provide additional protection, multi-factor authentication (MFA) delete can b
 ---
 
 also, versioning enables security towards misrtaken deleting of the files by putting a delete marker in the versioned delte object.
+
+---
+
+You can't move data directly from AWS Snowball into Amazon S3 Glacier, you need to go through Amazon S3 first, and then use a lifecycle policy. So this option is correct.
+
+----
+the Account which created the bucket  will have implicit access to the S3 bucket.
+check [[S3 replication rules and errors]]

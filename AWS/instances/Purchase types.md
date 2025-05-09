@@ -55,3 +55,4 @@ Some savings plan shit as well:
 ![[Screenshot from 2025-03-30 15-45-37.png]]
 
 
+Theres also a fucking [[spot fleet]]

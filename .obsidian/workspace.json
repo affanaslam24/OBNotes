@@ -4,20 +4,193 @@
     "type": "split",
     "children": [
       {
-        "id": "d10bc9f745908e2e",
+        "id": "141b1d9af3dac05d",
         "type": "tabs",
         "children": [
           {
-            "id": "19f4afdebf52aff0",
+            "id": "9701108f1a95e7a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "oops/polymorphism.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "polymorphism"
+            }
+          },
+          {
+            "id": "c3007117633984a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "oops/final.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "final"
+            }
+          },
+          {
+            "id": "44df3f61aca2de5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "oops/custom exception.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "custom exception"
+            }
+          },
+          {
+            "id": "85e761c97779edf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "oops/checked unchecked.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "checked unchecked"
+            }
+          },
+          {
+            "id": "c3254f239af986f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "oops/throw and throws.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "throw and throws"
+            }
+          },
+          {
+            "id": "e7511b199a3ddf8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "oops/eneric.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "eneric"
+            }
+          },
+          {
+            "id": "4d0d10066fc29e48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "oops/why try catch if if else exists.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "why try catch if if else exists"
+            }
+          },
+          {
+            "id": "1075c4c0e76d042e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "oops/thread.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "thread"
+            }
+          },
+          {
+            "id": "9f40273f8f7dc886",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "oops/lambda.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lambda"
+            }
+          },
+          {
+            "id": "9744f3780affe1f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "oops/enums.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "enums"
+            }
+          },
+          {
+            "id": "6b2c8e0d3381e1c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "oops/comparator vs comparable.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "comparator vs comparable"
+            }
+          },
+          {
+            "id": "522f45b7c5aa7efd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dsa/BS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BS"
+            }
+          },
+          {
+            "id": "de2fbfbd5131ec4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dsa/merge sort.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "merge sort"
             }
           }
-        ]
+        ],
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -49,7 +222,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cognito",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "ef27932f34e1af62",
@@ -90,7 +263,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ansible/1st one.md",
+                "file": "Sudden inspo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +273,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1st one"
+              "title": "Backlinks for Sudden inspo"
             }
           },
           {
@@ -176,54 +349,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "19f4afdebf52aff0",
+  "active": "de2fbfbd5131ec4a",
   "lastOpenFiles": [
-    "AWS/Kinesis/SQS and kinesis difference.md",
-    "AWS/Kinesis/EXAM fresher.md",
-    "AWS/S3/EXAM fresher.md",
-    "AWS/Mischellaneuos/EXAM fresher.md",
-    "AWS/Mischellaneuos/GuardDuty.md",
-    "AWS/Mischellaneuos/Inspector.md",
-    "AWS/EXAM fresher.md",
-    "AWS/Practise resources.md",
-    "AWS/Kinesis/Data Analytics.md",
-    "AWS/Kinesis/Firehose.md",
-    "AWS/Kinesis/basics.md",
-    "AWS/SQS/Extra features.md",
-    "AWS/SQS/EXAM fresher.md",
-    "AWS/Cloudfront/EXAM fresher.md",
-    "AWS/Cloudfront/RoutingPolicy of R53.md",
-    "AWS/Cloudfront/photos/Pasted image 20250413212013.png",
-    "AWS/monitoring/what is cloudtrail used for.md",
-    "AWS/monitoring/Cloudwatch logs.md",
-    "AWS/monitoring/CloudTrail.md",
-    "AWS/Lambda/EXAM fresher.md",
-    "AWS/Lambda/API gateway.md",
-    "AWS/Lambda/photos/Pasted image 20250413202913.png",
-    "AWS/S3/put vs Data transfer in.md",
-    "AWS/S3/S3 Accelarated transfer.md",
-    "AWS/S3/photos/Pasted image 20250413201012.png",
-    "AWS/Lambda/photos/Pasted image 20250413200631.png",
-    "AWS/Lambda/photos/Pasted image 20250413200552.png",
-    "AWS/Lambda/Invocatiobs.md",
-    "AWS/Encryption/EXAM fresher.md",
-    "AWS/Encryption/photos/Pasted image 20250413200139.png",
-    "AWS/Encryption/photos/Pasted image 20250413200133.png",
-    "AWS/Encryption/Basics of encrypt.md",
-    "AWS/Load Balance/EXAM Fresher.md",
-    "AWS/Load Balance/photos/Pasted image 20250413194814.png",
-    "AWS/Load Balance/photos/Pasted image 20250413194720.png",
-    "AWS/Load Balance/photos/Pasted image 20250413194223.png",
-    "AWS/Elastic Beanstalk/photos",
-    "AWS/Elastic Beanstalk",
-    "AWS/EKS/photos",
-    "AWS/EKS",
-    "AWS/Mischellaneuos/photos",
-    "AWS/dynamoDb/photos",
-    "AWS/dynamoDb",
-    "AWS/CloudFormtaion/photos",
-    "AWS/Mischellaneuos",
-    "AWS/CloudFormtaion",
+    "dsa/photos/Pasted image 20250510030253.png",
+    "dsa/photos/Pasted image 20250510030157.png",
+    "dsa/photos/Pasted image 20250510030125.png",
+    "dsa/photos/Pasted image 20250510025719.png",
+    "dsa/photos/Pasted image 20250510025337.png",
+    "dsa/BS.md",
+    "dsa/merge sort.md",
+    "oops/me.md",
+    "oops/comparator vs comparable.md",
+    "oops/photos/Pasted image 20250510024608.png",
+    "oops/enums.md",
+    "oops/photos/Pasted image 20250510024305.png",
+    "oops/lambda.md",
+    "oops/photos/Pasted image 20250510024041.png",
+    "oops/photos/Pasted image 20250510023806.png",
+    "oops/thread.md",
+    "oops/photos/Pasted image 20250510023456.png",
+    "oops/photos/Pasted image 20250510023057.png",
+    "oops/why try catch if if else exists.md",
+    "oops/eneric.md",
+    "oops/throw and throws.md",
+    "oops/checked unchecked.md",
+    "oops/custom exception.md",
+    "oops/final.md",
+    "oops/polymorphism.md",
+    "oops/super.md",
+    "oops/runtime and compile time.md",
+    "oops/reference and object.md",
+    "oops/mukti threading.md",
+    "oops/Interface.md",
+    "oops/acces.md",
+    "oops/photos",
+    "oops/multi threading.md",
+    "oops/abstract class.md",
+    "oops/encapsulation vs abstraction.md",
+    "oops/pillars.md",
+    "projects/a4lproject/shell project.md",
+    "projects/a4lproject",
+    "projects/sahil project",
+    "oops",
+    "projects/node backend/photos",
+    "projects/node backend",
+    "dsa/two pointer/photos",
+    "dsa/two pointer",
+    "K8s/photos",
+    "flask/photos",
     "Untitled.canvas"
   ]
 }

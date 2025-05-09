@@ -8,3 +8,13 @@ For the question with spreadsheet that are shared amongst users:
 . S3 does not allow in-place edit of an object. Additionally, it's also not POSIX compliant.
 
 So one would need to develop a custom application to "simulate in-place edits" to support collabaration as per the use-case.
+
+
+---
+
+
+efs is very flexible:
+
+- It is built to scale on-demand to petabytes without disrupting applications, growing and shrinking automatically as you add and remove files, eliminating the need to provision and manage capacity to accommodate growth.
+For linux only
+	

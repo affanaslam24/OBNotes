@@ -1,4 +1,4 @@
-![[Pasted image 20250408214647.png]]
+	![[Pasted image 20250408214647.png]]
 - near real time
 - can transform the data using lambda on hte fly, but takes time
 - billed based on the volume pf data being passed thorugh it.
@@ -23,4 +23,33 @@
 
 
 
-Firehose cannot directly write into a DynamoDB table, so this option is incorrect.
+- Firehose cannot directly write into a DynamoDB table, so this option is incorrect.
+- It is a fully managed service that automatically scales to match the throughput of your data and requires no ongoing administration
+- It can also batch, compress, transform, and encrypt the data before loading it, minimizing the amount of storage used at the destination and increasing security.
+- IT can have only kinesis data stream at its producer, or a bunch of other devices, but not both at the same time.
+- 
+
+
+---
+
+
+An IT company is working on client engagement to build a real-time data analytics tool for the Internet of Things (IoT) data. The IoT data is funneled into Amazon Kinesis Data Streams which further acts as the source of a delivery stream for Amazon Kinesis Firehose. The engineering team has now configured a Kinesis Agent to send IoT data from another set of devices to the same Amazon Kinesis Firehose delivery stream. They noticed that data is not reaching Kinesis Firehose as expected. As a solutions architect, which of the following options would you attribute as the MOST plausible root cause behind this issue?
+
+
+**Kinesis Agent cannot write to Amazon Kinesis Firehose for which the delivery stream source is already set as Amazon Kinesis Data Streams**
+
+Amazon Kinesis Data Firehose is the easiest way to reliably load streaming data into data lakes, data stores, and analytics tools. It is a fully managed service that automatically scales to match the throughput of your data and requires no ongoing administration. It can also batch, compress, transform, and encrypt the data before loading it, minimizing the amount of storage used at the destination and increasing security. When an Amazon Kinesis Data Stream is configured as the source of a Kinesis Firehose delivery stream, Firehose’s `PutRecord` and `PutRecordBatch` operations are disabled and Kinesis Agent cannot write to Kinesis Firehose Delivery Stream directly. Data needs to be added to the Amazon Kinesis Data Stream through the Kinesis Data Streams `PutRecord` and `PutRecords` operations instead. Therefore, this option is correct.
+
+Incorrect options:
+
+**Kinesis Agent can only write to Amazon Kinesis Data Streams, not to Amazon Kinesis Firehose** - Kinesis Agent is a stand-alone Java software application that offers an easy way to collect and send data to Amazon Kinesis Data Streams or Amazon Kinesis Firehose. So this option is incorrect.
+
+**Amazon Kinesis Firehose delivery stream has reached its limit and needs to be scaled manually** - Amazon Kinesis Firehose is a fully managed service that automatically scales to match the throughput of your data and requires no ongoing administration. Therefore this option is not correct.
+
+How Amazon Kinesis Firehose works:
+
+![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram_Amazon-Kinesis-Data-Firehose.9340b812ab86518341c47b24316995b3792bf6e1.png)
+
+via - [https://aws.amazon.com/kinesis/data-firehose/](https://aws.amazon.com/kinesis/data-firehose/)
+
+**The data sent by Kinesis Agent is lost because of a configuration error** - This is a made-up option and has been added as a distractor.

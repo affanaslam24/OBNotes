@@ -79,3 +79,48 @@ Geolocation routing lets you choose the resources that serve your traffic based 
 You can use georestriction, also known as geo-blocking, to prevent users in specific geographic locations from accessing content that you're distributing through a Amazon CloudFront web distribution. When a user requests your content, Amazon CloudFront typically serves the requested content regardless of where the user is located. If you need to prevent users in specific countries from accessing your content, you can use the CloudFront geo restriction feature to do one of the following: Allow your users to access your content only if they're in one of the countries on a whitelist of approved countries. Prevent your users from accessing your content if they're in one of the countries on a blacklist of banned countries. So this option is also correct.
 
 [[RoutingPolicy of R53]]
+
+---
+
+A custom origin can point to an on-premises server and CloudFront is able to cache content for dynamic websites. CloudFront can provide performance optimizations for custom origins even if they are running on on-premises servers. These include persistent TCP connections to the origin, SSL enhancements such as Session tickets and OCSP stapling.
+
+Additionally, connections are routed from the nearest Edge Location to the user across the AWS global network. If the on-premises server is connected via a Direct Connect (DX) link this can further improve performance.
+
+**CORRECT:** "Use Amazon CloudFront with a custom origin pointing to the on-premises servers" is the correct answer.
+
+**INCORRECT:** "Use Amazon CloudFront with Lambda@Edge to direct traffic to an on-premises origin" is incorrect. Lambda@Edge is not used to direct traffic to on-premises origins.
+
+---
+
+
+remember that cloudfront doesnt goes well with real time purposes.
+
+---
+An Amazon S3 bucket in the us-east-1 Region hosts the static website content of a company. The content is made available through an Amazon CloudFront origin pointing to that bucket. A second copy of the bucket is created in the ap-southeast-1 Region using cross-region replication. The chief solutions architect wants a solution that provides greater availability for the website.
+
+Which combination of actions should a solutions architect take to increase availability? (Select TWO.)
+
+
+You can set up CloudFront with origin failover for scenarios that require high availability. To get started, you create an _origin group_ with two origins: a primary and a secondary. If the primary origin is unavailable or returns specific HTTP response status codes that indicate a failure, CloudFront automatically switches to the secondary origin.
+
+**CORRECT:** "Add an origin for ap-southeast-1 to CloudFront” is the correct answer (as explained above.)
+
+**CORRECT:** "Using us-east-1 bucket as the primary bucket and ap-southeast-1 bucket as the secondary bucket, create a CloudFront origin group” is also a correct answer (as explained above.)
+
+**INCORRECT:** "Create an origin for CloudFront for both buckets” is incorrect. This would not increase the availability of the solution on its own.
+
+**INCORRECT:** "Set up failover routing in Amazon Route 53” is incorrect as we are trying to enable failover in CloudFront and using Route 53 is for routing domain names.
+
+**INCORRECT:** "Create a record in Amazon Route 53 pointing to the replica bucket" is incorrect as we are trying to enable failover in CloudFront and using Route 53 is for routing domain names.
+
+
+---
+ price class:
+
+With Amazon CloudFront you can set the price class to determine where in the world the content will be cached. One of the price classes is “U.S, Canada and Mexico” and this is where the company’s users are located. Choosing this price class will result in lower costs and better performance for the company’s users.
+
+---
+
+. Certificates provided by ACM are automatically renewed. ACM does not automatically renew the certificates that you import.
+
+

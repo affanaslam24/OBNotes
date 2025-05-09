@@ -1,0 +1,1 @@
+One subnet can have one Az only
