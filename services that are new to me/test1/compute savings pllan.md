@@ -1,0 +1,1 @@
+**Purchase a compute savings plan for EC2 and RDS** is incorrect because compute savings plans are only applicable for consistent hourly use of compute instances. This means that for periods where the instances could be in `Stopped` status, it is still billed, albeit at a discounted rate. Also, there is no compute savings plan that applies to RDS db instance types.

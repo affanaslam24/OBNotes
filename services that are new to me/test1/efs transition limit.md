@@ -1,0 +1,1 @@
+**Use Amazon EFS and create a lifecycle policy that will move the objects to Amazon EFS-IA after 2 years** is incorrect because the maximum days of EFS lifecycle policies is only up to 365 days. Therefore, it still does not meet the requirement of moving files older than 2 years or 730 days.

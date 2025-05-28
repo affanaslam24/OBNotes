@@ -4,193 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "141b1d9af3dac05d",
+        "id": "cac7c4714abc15aa",
         "type": "tabs",
         "children": [
           {
-            "id": "9701108f1a95e7a6",
+            "id": "f9981417f99f4de8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "oops/polymorphism.md",
+                "file": "cryptography/authentication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "polymorphism"
+              "title": "authentication"
             }
           },
           {
-            "id": "c3007117633984a5",
+            "id": "846a43460fb44cc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "oops/final.md",
+                "file": "cryptography/ca.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "final"
+              "title": "ca"
             }
           },
           {
-            "id": "44df3f61aca2de5a",
+            "id": "b65a55c9fef4433b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "oops/custom exception.md",
+                "file": "cryptography/mischellaneuos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "custom exception"
+              "title": "mischellaneuos"
             }
           },
           {
-            "id": "85e761c97779edf1",
+            "id": "ef1667e6aabaaa75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "oops/checked unchecked.md",
+                "file": "cryptography/ha and sha difference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "checked unchecked"
+              "title": "ha and sha difference"
             }
           },
           {
-            "id": "c3254f239af986f4",
+            "id": "7debace294863d4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "oops/throw and throws.md",
+                "file": "cryptography/phishing and pharming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "throw and throws"
+              "title": "phishing and pharming"
             }
           },
           {
-            "id": "e7511b199a3ddf8e",
+            "id": "b281d7af79f51e5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "oops/eneric.md",
+                "file": "cryptography/ca vs biometric.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "eneric"
-            }
-          },
-          {
-            "id": "4d0d10066fc29e48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "oops/why try catch if if else exists.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "why try catch if if else exists"
-            }
-          },
-          {
-            "id": "1075c4c0e76d042e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "oops/thread.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "thread"
-            }
-          },
-          {
-            "id": "9f40273f8f7dc886",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "oops/lambda.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "lambda"
-            }
-          },
-          {
-            "id": "9744f3780affe1f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "oops/enums.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "enums"
-            }
-          },
-          {
-            "id": "6b2c8e0d3381e1c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "oops/comparator vs comparable.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "comparator vs comparable"
-            }
-          },
-          {
-            "id": "522f45b7c5aa7efd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dsa/BS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BS"
-            }
-          },
-          {
-            "id": "de2fbfbd5131ec4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dsa/merge sort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "merge sort"
+              "title": "ca vs biometric"
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -222,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cognito",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -349,54 +251,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "de2fbfbd5131ec4a",
+  "active": "7debace294863d4e",
   "lastOpenFiles": [
-    "dsa/photos/Pasted image 20250510030253.png",
-    "dsa/photos/Pasted image 20250510030157.png",
-    "dsa/photos/Pasted image 20250510030125.png",
-    "dsa/photos/Pasted image 20250510025719.png",
-    "dsa/photos/Pasted image 20250510025337.png",
-    "dsa/BS.md",
-    "dsa/merge sort.md",
-    "oops/me.md",
-    "oops/comparator vs comparable.md",
-    "oops/photos/Pasted image 20250510024608.png",
-    "oops/enums.md",
-    "oops/photos/Pasted image 20250510024305.png",
-    "oops/lambda.md",
-    "oops/photos/Pasted image 20250510024041.png",
-    "oops/photos/Pasted image 20250510023806.png",
-    "oops/thread.md",
-    "oops/photos/Pasted image 20250510023456.png",
-    "oops/photos/Pasted image 20250510023057.png",
-    "oops/why try catch if if else exists.md",
-    "oops/eneric.md",
-    "oops/throw and throws.md",
-    "oops/checked unchecked.md",
-    "oops/custom exception.md",
-    "oops/final.md",
-    "oops/polymorphism.md",
-    "oops/super.md",
-    "oops/runtime and compile time.md",
-    "oops/reference and object.md",
-    "oops/mukti threading.md",
-    "oops/Interface.md",
-    "oops/acces.md",
-    "oops/photos",
-    "oops/multi threading.md",
-    "oops/abstract class.md",
-    "oops/encapsulation vs abstraction.md",
-    "oops/pillars.md",
-    "projects/a4lproject/shell project.md",
-    "projects/a4lproject",
-    "projects/sahil project",
-    "oops",
-    "projects/node backend/photos",
-    "projects/node backend",
-    "dsa/two pointer/photos",
-    "dsa/two pointer",
-    "K8s/photos",
-    "flask/photos",
+    "cryptography/ha and sha difference.md",
+    "cryptography/phishing and pharming.md",
+    "cryptography/mischellaneuos.md",
+    "cryptography/ca vs biometric.md",
+    "cryptography/ca.md",
+    "cryptography/photos/Pasted image 20250528100315.png",
+    "cryptography/authentication.md",
+    "cryptography/authentication function mac, hash.md",
+    "cryptography/digital signature.md",
+    "cryptography/DES, 3DES, AES.md",
+    "cryptography/anti replay and non repudiation.md",
+    "cryptography/diffie hellman.md",
+    "cryptography/things required for data exchange.md",
+    "cryptography/symmetric with assymetric.md",
+    "cryptography/ssl and tls.md",
+    "cryptography/rsa.md",
+    "cryptography/photos/Pasted image 20250528095017.png",
+    "cryptography/techniques of cryptography.md",
+    "cryptography/pki, client server CA.md",
+    "cryptography/mac.md",
+    "cryptography/hashing properties.md",
+    "cryptography/hash function.md",
+    "cryptography/encryption.md",
+    "cryptography/IDEA algo.md",
+    "cryptography/Fiestel cihper first.md",
+    "cryptography/types of block cipher modes.md",
+    "cryptography/transposition techniques.md",
+    "cryptography/types of cipher.md",
+    "cryptography/photos/Pasted image 20250528032737.png",
+    "cryptography/photos/Pasted image 20250528032059.png",
+    "cryptography/photos/Pasted image 20250528032009.png",
+    "cryptography/photos/Pasted image 20250528002104.png",
+    "cryptography/photos/Pasted image 20250528002035.png",
+    "cryptography/photos/Pasted image 20250528001943.png",
+    "cryptography/photos/Pasted image 20250528001257.png",
+    "cryptography/photos/Pasted image 20250528000929.png",
+    "cryptography/photos",
+    "cryptography",
+    "projects/k8s microservice/photos",
+    "projects/k8s microservice",
+    "services that are new to me/test2/actual scenarios",
+    "services that are new to me/test2",
+    "services that are new to me/test1/photos",
+    "services that are new to me/test1",
+    "services that are new to me/photos",
+    "services that are new to me",
     "Untitled.canvas"
   ]
 }

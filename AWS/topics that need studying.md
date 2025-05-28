@@ -1,0 +1,3 @@
+- costing, various costing services and their uses.
+- aws organisation and RAM
+- 

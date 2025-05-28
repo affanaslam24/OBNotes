@@ -1,0 +1,5 @@
+It’s essential to understand that the Instance Scheduler is not an AWS service or feature per se, but a CloudFormation template provided by AWS. By deploying this template, you can simply set the desired start and stop schedules for your EC2 and RDS instances to match your application’s operating hours.
+
+he **Instance Scheduler on AWS** solution automates the starting and stopping of Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Relational Database Service (Amazon RDS) instances.
+
+This solution helps reduce operational costs by stopping resources that are not in use and starting resources when their capacity is needed. For example, a company can use an Instance Scheduler on AWS in a production environment to automatically stop instances outside of business hours every day. If you leave all of your instances running at full utilization, this solution can result in up to 70% cost savings for those instances that are only necessary during regular business hours (weekly utilization reduced from 168 hours to 50 hours).

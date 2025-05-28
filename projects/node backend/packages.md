@@ -11,6 +11,7 @@ Here's a brief explanation of each of the packages you listed — they're common
 1. **`express`**  
     A fast, minimalist web framework for Node.js. Used to create APIs and web servers.
     
+    
 2. **`cors`**  
     Middleware to enable Cross-Origin Resource Sharing — allows your server to respond to requests from other origins (like your frontend app).
     

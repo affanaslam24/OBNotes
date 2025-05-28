@@ -1,0 +1,7 @@
+**Create a native function or a stored procedure that invokes an AWS Lambda function. Configure the Lambda function to send event notifications to an Amazon SQS queue for the processing system to consume.**
+
+The option that says: **Create an RDS event subscription and send the notifications to Amazon SQS. Configure the SQS queues to fan out the event notifications to multiple Amazon SNS topics. Process the data using AWS Lambda functions** is incorrect because RDS event subscriptions typically notify about operational changes rather than data modifications. This method does not capture database modifications like `INSERT, DELETE,` or `UPDATE`.
+
+The option that says: **Create an RDS event subscription and send the notifications to AWS Lambda. Configure the Lambda function to fan out the event notifications to multiple Amazon SQS queues to update the processing system** is incorrect because RDS event subscriptions primarily focus on operational-level changes rather than capturing direct data modifications.
+
+The option that says: **Create an RDS event subscription and send the notifications to Amazon SNS. Configure the SNS topic to fan out the event notifications to multiple Amazon SQS queues. Process the data using AWS Lambda functions** is incorrect because RDS event subscriptions only track infrastructure-related events and not actual database changes.
